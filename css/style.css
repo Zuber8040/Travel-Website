@@ -382,3 +382,101 @@ h1,h2,h3{
     clear: both;
     display: block;
 }
+
+
+/* Contact Page stylng */
+
+.contact-form{
+    padding: 5rem 0;
+    background: #f7f7f7;
+}
+
+.form-warpper .company-address{
+    height: 760px;
+    background: #fff;
+    width: 49%;
+    float: left;
+    padding: 1rem;
+}
+
+/* company address styling */
+
+.form-warpper .company-address i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.form-warpper .company-address h2{
+    display: inline-block;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+.form-warpper .address-group{
+    margin-bottom: 3rem;
+}
+
+.form-warpper .company-address img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+
+
+/* Form Styling */
+
+.form-warpper .form{
+    font-size: 1.6rem;
+    background: #fff;
+
+    width: 49%;
+    float: right;
+    padding: 1rem;
+}
+.form-warpper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.form h1::after{
+    content: "";
+    display: block;
+    border: 3px solid #ee4758;
+    width: 100%;
+}
+.form-warpper label{
+    display: block;
+}
+.form-warpper .form input{
+    padding: 0.5rem;
+}
+.form-warpper .form .form-group{
+    margin-bottom: 1.2rem;
+}
+.form-warpper .form label::after{
+    content: "*";
+    color: #e63946;
+}
+.form-warpper .form textarea{
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+}
+
+/* buutton styling */
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #e63946;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+}
